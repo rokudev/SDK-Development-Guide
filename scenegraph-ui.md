@@ -1,6 +1,6 @@
 # Building a User Interface with SceneGraph
 
-In this guide we'll cover building a basic grid layout using SceneGraph. This is a continuation from [parsing an XML feed](/develop/sdk-development/parsing-feed.md) of the [SDK Development Guide](/develop/sdk-development).
+In this guide we'll cover building a basic grid layout using SceneGraph. This is a continuation from [parsing an XML feed](/parsing-feed.md) of the [SDK Development Guide](/sdk-development).
 
 ![](/images/ch-dev-guide-example-ui.jpg)
 
@@ -29,7 +29,7 @@ In this guide we'll cover building a basic grid layout using SceneGraph. This is
 
 The UI for this example will be designed in FHD (1920x1080) resolution. To ensure the UI scales correctly across different resolutions, the `ui_resolutions` attribute will need to be added to the `manifest`.
 
-In the [Roku Plugin for Eclipse](/develop/developer-tools/eclipse-plugin.md), open the manifest file and add `fhd` to `UI Resolutions` under `Resolution Attributes`.
+In the [Roku Plugin for Eclipse](https://sdkdocs.roku.com/display/sdkdoc/Roku+Plugin+for+Eclipse+IDE), open the manifest file and add `fhd` to `UI Resolutions` under `Resolution Attributes`.
 
 ![](/images/eclipse-ui-resolution-setting.png)
 
@@ -219,7 +219,7 @@ m.LoadTask = CreateObject("roSGNode", "FeedParser") 'Create XML Parsing task nod
 m.LoadTask.control = "RUN" 'Run the task node
 ```
 
-We can now set an observer that calls a function when a field is changed. In the [previous guide](/develop/sdk-development/parsing-feed.md), we created an interface field named `content` to store our content node. We can now assign it to our `RowList` from our `HomeScene`. In the line below, an observer is set to `LoadTask` to watch when the content field changes (after the task node has assigned the content node containing the XML to it).
+We can now set an observer that calls a function when a field is changed. In the [previous guide](/parsing-feed.md), we created an interface field named `content` to store our content node. We can now assign it to our `RowList` from our `HomeScene`. In the line below, an observer is set to `LoadTask` to watch when the content field changes (after the task node has assigned the content node containing the XML to it).
 
 ```brightscript
 m.LoadTask.observeField("content","rowListContentChanged")
@@ -332,4 +332,4 @@ Here's what our finished UI looks like:
 
 ## Adding Video
 
-Proceed to the next guide on [adding video playback](/develop/sdk-development/video-playback.md) to this project.
+Proceed to the next guide on [adding video playback](/video-playback.md) to this project.

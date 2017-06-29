@@ -1,6 +1,6 @@
 # Playing Video in SceneGraph
 
-This guide demonstrates adding video to a SceneGraph project which is a continuation from [Building a UI in SceneGraph](/develop/sdk-development/scenegraph-ui.md). This guide will use the same example project.
+This guide demonstrates adding video to a SceneGraph project which is a continuation from [Building a UI in SceneGraph](/scenegraph-ui.md). This guide will use the same example project.
 
 **Steps:**
 

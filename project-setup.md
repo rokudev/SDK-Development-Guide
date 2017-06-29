@@ -28,14 +28,14 @@ The next part of this guide will cover the contents of this folder so we'll leav
 Any graphic image files to be included in the application package are stored in the `images` directory. At a minimum, the `images` directory must contain the `mm_icon_focus_hd` image and a `splash_screen_fhd` graphic described in the following section.
 
 For this example, you can save the following images and add them to your `images` folder:
-* [channel-poster.png](https://raw.githubusercontent.com/rokudev/docs/master/images/channel-poster.png)
-* [channel-splash.png](https://raw.githubusercontent.com/rokudev/docs/master/images/channel-splash.png)
+* [channel-poster.png](/images/channel-poster.png)
+* [channel-splash.png](/images/channel-splash.png)
 
 ## Manifest File
 
 At the root level there must be a file named `manifest` which contains attributes for the application. The attributes specified in the `manifest` include the name and version number of the application, the artwork image to be used on the home screen, and many more.
 
-> :information_source: See [Roku Channel Manifest](/develop/specifications/manifest.md) for more details.
+> :information_source: See [Roku Channel Manifest](https://sdkdocs.roku.com/display/sdkdoc/Roku+Channel+Manifest) for more details.
 
 The following fields are required:
 * title
@@ -59,4 +59,4 @@ splash_screen_fhd=pkg:/images/channel-splash.png
 
 ## Parsing an XML Feed
 
-Proceed to the next section which covers [Parsing an XML Content Feed](/develop/sdk-development/parsing-feed.md).
+Proceed to the next section which covers [Parsing an XML Content Feed](/parsing-feed.md).

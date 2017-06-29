@@ -2,7 +2,7 @@
 
 ### Overview
 
-This guide covers how to parse an XML content feed using a task node in SceneGraph. This is a continuation from [Setting up a project](/develop/sdk-development/project-setup.md) of the [SDK Development Guide](/develop/sdk-development).
+This guide covers how to parse an XML content feed using a task node in SceneGraph. This is a continuation from [Setting up a project](/project-setup.md) of the [SDK Development Guide](/sdk-development).
 
 Parsing an XML feed is one of the most common ways to retrieve content for Roku channels. This guide will be using this [sample MRSS feed](http://api.delvenetworks.com/rest/organizations/59021fabe3b645968e382ac726cd6c7b/channels/1cfd09ab38e54f48be8498e0249f5c83/media.rss).
 
@@ -195,4 +195,4 @@ End Function
 
 ## Building a User Interface in SceneGraph
 
-Continue to the next guide on [Building a User Interface in SceneGraph](/develop/sdk-development/scenegraph-ui.md).
+Continue to the next guide on [Building a User Interface in SceneGraph](/scenegraph-ui.md).
