@@ -1,6 +1,6 @@
 # SDK Development Guide
 
-![](../../images/ch-dev-guide-example-ui.jpg)
+![](/images/ch-dev-guide-example-ui.jpg)
 
 ## Overview
 

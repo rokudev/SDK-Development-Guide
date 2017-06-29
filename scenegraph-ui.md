@@ -2,7 +2,7 @@
 
 In this guide we'll cover building a basic grid layout using SceneGraph. This is a continuation from [parsing an XML feed](/develop/sdk-development/parsing-feed.md) of the [SDK Development Guide](/develop/sdk-development).
 
-![](../../images/ch-dev-guide-example-ui.jpg)
+![](/images/ch-dev-guide-example-ui.jpg)
 
 **Steps:**
 
@@ -31,7 +31,7 @@ The UI for this example will be designed in FHD (1920x1080) resolution. To ensur
 
 In the [Roku Plugin for Eclipse](/develop/developer-tools/eclipse-plugin.md), open the manifest file and add `fhd` to `UI Resolutions` under `Resolution Attributes`.
 
-![](../../images/eclipse-ui-resolution-setting.png)
+![](/images/eclipse-ui-resolution-setting.png)
 
 If you're not using the Roku Plugin for Eclipse, open the `manifest` in a text editor and add the following line at the end:
 
@@ -328,7 +328,7 @@ In this example, the grid has been changed so it now shows 4 rows of content wit
 
 Here's what our finished UI looks like:
 
-![](../../images/ch-dev-guide-example-ui.jpg)
+![](/images/ch-dev-guide-example-ui.jpg)
 
 ## Adding Video
 
