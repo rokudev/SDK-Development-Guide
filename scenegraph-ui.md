@@ -1,6 +1,6 @@
 # Building a User Interface with SceneGraph
 
-In this guide we'll cover building a basic grid layout using SceneGraph. This is a continuation from [parsing an XML feed](/parsing-feed.md) of the [SDK Development Guide](/sdk-development).
+In this guide we'll cover building a basic grid layout using SceneGraph. This is a continuation from [parsing an XML feed](/parsing-feed.md) of the [SDK Development Guide](https://github.com/rokudev/SDK-Development-Guide).
 
 ![](/images/ch-dev-guide-example-ui.jpg)
 
